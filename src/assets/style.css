@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+header ion-icon {
+    font-size: 38px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter .sort {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.filter input {
+    width: 20px;
+    height: 20px;
+}
+
+.filter p {
+    font-size: 24px;
+}
+
+.cardList {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 325px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+    background: #000;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 30px;
+    height: 250px;
+}
+
+.card .info {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h1 {
+    font-size: 36px;
+}
+
+.card p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.card button {
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.form label {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form input {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    background: transparent;
+    border-radius: 30px;
+    border: 3px solid #000;
+    padding: 20px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form input:nth-child(6) {
+    background: #000;
+    cursor: pointer;
+}
+
+.form input::placeholder {
+    color: #fff;
+}
+
+/* DarkTheme */
+body.active {
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+body.active .form input,
+body.active .form input::placeholder {
+    color: #000;
+}
+
+body.active .form input:nth-child(6) {
+    color: #fff;
+}
+
+body.active .card {
+    color: #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        display: none;
+    }
+
+    .form input {
+        width: 80%;
+    }
+
+}
