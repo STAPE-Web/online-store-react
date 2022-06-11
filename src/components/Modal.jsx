@@ -46,7 +46,7 @@ const Basket = ({ getTitle, getId, visible, setVisible }) => {
                 <input value={emailInput} onChange={(e) => setEmailInput(e.target.value)} />
                 <input type="button" value='Send' onClick={Validation} />
             </div>
-        </div >
+        </div>
     )
 }
 
