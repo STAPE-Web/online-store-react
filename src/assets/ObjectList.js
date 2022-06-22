@@ -12,7 +12,6 @@ export const card = [
         title: 'Socks',
         description: 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae',
         price: 945,
-
     },
     {
         id: 3,
