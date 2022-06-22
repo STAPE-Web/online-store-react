@@ -19,7 +19,6 @@ export const card = [
         title: 'Сoat',
         description: 'et iusto sed quo iure\nvoluptatem occaecati omnis eligendi',
         price: 871,
-
     },
     {
         id: 4,
