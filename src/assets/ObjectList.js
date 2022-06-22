@@ -33,7 +33,6 @@ export const card = [
         title: 'Hat',
         description: 'repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed',
         price: 144,
-
     },
     {
         id: 6,
