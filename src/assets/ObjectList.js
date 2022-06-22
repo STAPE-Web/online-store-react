@@ -5,7 +5,6 @@ export const card = [
         title: 'Sneakers',
         description: 'quia et suscipit\nsuscipit recusandae consequuntur expedita',
         price: 459,
-
     },
     {
         id: 2,
