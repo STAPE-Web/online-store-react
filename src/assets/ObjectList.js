@@ -26,7 +26,6 @@ export const card = [
         title: 'Jacket',
         description: 'ullam et saepe reiciendis voluptatem adipisci\nsit amet autem',
         price: 674,
-
     },
     {
         id: 5,
