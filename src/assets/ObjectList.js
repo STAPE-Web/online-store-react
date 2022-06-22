@@ -45,6 +45,5 @@ export const card = [
         title: 'Scarf',
         description: 'ut aspernatur corporis harum nihil quis provident sequi\nmollitia',
         price: 938,
-
     },
 ]
